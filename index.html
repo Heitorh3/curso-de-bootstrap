@@ -205,6 +205,9 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
+          <button type="button" data-dismiss="modal" class="close">
+            <span>&times;</span>
+          </button>
           <h4 class="modal-title">Nova Ordem de Serviço</h4>
         </div>
         <form>
@@ -236,8 +239,8 @@
                 </div>
               </div>
               <div class="row">
-                <div class="form-group col-xs-12">
-                  <label for="Observacao">Observação</label>
+                <div class="form-group has-error col-xs-12">
+                  <label class="control-label" for="Observacao">Observação</label>
                   <textarea id="Observacao" class="form-control" rows="3"></textarea>
                 </div>
               </div>
